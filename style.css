@@ -73,6 +73,19 @@ button {
   align-items: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.dog-info {
+  flex: 1;
+}
+
+.text {
+  width: 300px;
+}
+
 .dog-info img {
   width: 300px;
   border-radius: 20px;
