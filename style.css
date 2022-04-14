@@ -11,28 +11,36 @@ body {
 
 .header, .footer, .introduction {
   background-color: #1F2937;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
 ul {
   list-style-type: none;
 }
 
-.header {
-  display: flex;
-}
-
-.introduction {
-  color: rgb(233, 233, 233);
-  display: flex;
-}
-
 .links {
   display: flex;
   gap: 20px;
+  margin-right: 100px;
 }
+
 a {
   text-decoration: none;
-  color: rgb(233, 233, 233);
+  color: rgb(255, 255, 255);
+}
+
+.introduction {
+  display: flex;
+}
+
+.content {
+  width: 400px;
+  flex: 1;
 }
 
 .main-photo img {
@@ -40,11 +48,6 @@ a {
   height: auto;
   border-radius: 30%;
   padding: 20px;
-}
-
-.content {
-  width: 400px;
-  flex: 1;
 }
 
 button {
