@@ -18,6 +18,7 @@ body {
 .logo{
   width: 100px;
   opacity: 0.8;
+  padding: 10px;
 }
 
 ul {
@@ -42,7 +43,7 @@ a {
   gap: 40px;
 }
 
-.content {
+.top-content {
   font-size: 18px; 
   color: #E5E7EB;
   flex-wrap: wrap;
@@ -64,6 +65,12 @@ button {
   color: white;
   padding: 5px 25px;
   border-radius: 10px;
+}
+
+.mid-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .dog-info img {
