@@ -1,9 +1,14 @@
+
 body {
-  font-family: 'Open Sans', sans-serif;
-  
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
 }
+
 /* Header section */
-.header, .footer, .introduction {
+.header, 
+.footer, 
+.introduction {
   background-color: #1F2937;
   color: rgb(255, 255, 255);
 }
@@ -29,8 +34,11 @@ ul {
 }
 
 a {
-  text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+li a {
+  text-decoration: none;
 }
 
 /* Top-content section */
@@ -129,4 +137,20 @@ h2 {
   justify-content: space-evenly;
   width: 70%;
   border-radius: 10px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subscribe button {
+  border: 1px solid white;
+}
+
+/* Footer section */
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
