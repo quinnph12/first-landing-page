@@ -57,7 +57,7 @@ li a {
 
 h1 {
   font-size: 48px;
-  color:rgb(255, 255, 255);
+  color: #F9FAF8;
 }
 
 .main-photo img {
@@ -87,11 +87,15 @@ button {
 }
 
 h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #152937;
   padding: 30px 0;
 }
 
 .text {
   width: 300px;
+  text-align: justify;
 }
 
 .dog-info img {
@@ -152,5 +156,5 @@ h2 {
 /* Footer section */
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
