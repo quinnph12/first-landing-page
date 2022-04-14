@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   
 }
-
+/* Header section */
 .header, .footer, .introduction {
   background-color: #1F2937;
   color: rgb(255, 255, 255);
@@ -11,13 +11,12 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 10px 280px;
 }
 
 .logo{
   width: 100px;
-  padding: 10px;
+  padding-top: 20px;
 }
 
 ul {
@@ -34,10 +33,10 @@ a {
   color: rgb(255, 255, 255);
 }
 
+/* Top-content section */
 .introduction {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 50px 280px;
   gap: 40px;
 }
@@ -66,6 +65,7 @@ button {
   border-radius: 10px;
 }
 
+/* Mid-content section */
 .mid-content {
   display: flex;
   flex-direction: column;
@@ -92,6 +92,7 @@ h2 {
   border: 3px solid #3882F6;
 }
 
+/* Quote section */
 .quote {
   background-color: #E5E7EB;
   color: #1F2937;
@@ -108,8 +109,24 @@ h2 {
 .author {
   font-size: 28px;
   font-weight: 700;
-  margin: 0;
   padding-right: 200px;
+  margin-top: 0;
   align-self: flex-end;
 }
 
+/* Subscribe section */
+.subscribe-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.reminder {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  border-radius: 10px;
+}
